@@ -7,7 +7,7 @@ def guessing_game(guess)
         puts "Congratulations, You won!! %s beats %s" % [guess, comp_choice]
     else
         puts "Uh oh! looks like you lost, %s beats %s" % [comp_choice, guess]
-        end
     end
+end
 
 guessing_game("paper")

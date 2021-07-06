@@ -5,18 +5,18 @@ def fizzbuzz (number)
         output = ""
         if i % 3 == 0
             output += "fizz"
-            end
+        end
         if i % 5 == 0
             output += "buzz"
-            end
+        end
         if output == ""
             output = i
-            end
+        end
         puts output
         if i == number
             break
-            end
         end
     end
+end
 
 fizzbuzz(100)
